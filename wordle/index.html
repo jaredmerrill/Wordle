@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wordle - Jared Merrill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="wordle-icon.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <img src="wordle-img.png">
+        </div>
+        <div class="row row-1">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+        <div class="row row-2">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+        <div class="row row-3">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+        <div class="row row-4">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+        <div class="row row-5">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+        <div class="row row-6">
+            <div class="letter letter-1"></div>
+            <div class="letter letter-2"></div>
+            <div class="letter letter-3"></div>
+            <div class="letter letter-4"></div>
+            <div class="letter letter-5"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>By Jared Merrill 2024</p>
+    </div>
+    <div class="modal modal-win hidden">
+        <p class="modal-title">You Win!</p>
+        <br>
+        <a class="btn btn-play-again">Play again?</a>
+    </div>
+    <div class="modal modal-lose hidden">
+        <p class="modal-title">Out of turns...</p>
+        <p>The word was: <span class="modal-word"></span></p>
+        <br>
+        <a class="btn btn-play-again">Play again?</a>
+    </div>
+    <div class="modal-notword hidden">
+        <p class="modal-title">Not a word</p>
+    </div>
+
+    <div class="hidden cover"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
